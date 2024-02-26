@@ -1,1 +1,1 @@
-# nextjs-appwrite
+## NextJS-Appwrite
