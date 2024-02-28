@@ -32,7 +32,7 @@ const ProfileCard = () => {
                                 {user.name}
                             </p>
                             <div className="text-[12px] p-0.5 inline-block rounded-md bg-gradient-to-tr from-primary to-secondary">
-                                <button className="px-2 rounded-md font-bold bg-white">
+                                <button className="px-2 rounded-md font-bold bg-white text-primary hover:bg-primary hover:text-white">
                                     FREE
                                 </button>
                             </div>
@@ -40,30 +40,30 @@ const ProfileCard = () => {
                     </div>
                     <div className="bg-gray-200/70 rounded-xl px-8 py-8 w-full flex gap-y-4 flex-wrap">
                         <div className="relative w-full">
-                            <p className="text-sm text-gray-700">
+                            <p className="text-sm text-gray-700 font-medium">
                                 Display Name
                             </p>
                             <p className="font-semibold">{user.name}</p>
                         </div>
                         <div className="relative w-full">
-                            <p className="text-sm text-gray-700">Email Id</p>
+                            <p className="text-sm text-gray-700 font-medium">Email Id</p>
                             <p className="font-semibold">{user.email}</p>
                         </div>
                         <div className="relative w-full">
-                            <p className="text-sm text-gray-700">
+                            <p className="text-sm text-gray-700 font-medium">
                                 Phone Number
                             </p>
                             <p className="font-semibold">999-888-7777</p>
                         </div>
                         <div className="relative w-full">
-                            <p className="text-sm text-gray-700">Password</p>
+                            <p className="text-sm text-gray-700 font-medium">Password</p>
                             <p className="font-semibold">********</p>
                         </div>
                     </div>
                     <div className="w-full flex justify-center">
                         <Link
                             href={"/logout"}
-                            className="bg-gray-200/70 rounded-xl px-6 py-3 inline-block hover:bg-gray-100 duration-150"
+                            className="bg-gray-200/70 rounded-xl font-medium px-6 py-3 inline-block hover:bg-primary duration-150"
                         >
                             Logout
                         </Link>
