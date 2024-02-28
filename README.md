@@ -16,6 +16,10 @@
 - clone this project by `git clone https://github.com/THEFZNKHAN/nextjs-appwrite.git`
 - Move into the project directory using the command: `cd nextjs-appwrite`
 - Install the project dependencies by running: `npm install`
-- add `.env` file and add your appwrite credential as NEXT_PUBLIC_APPWRITE_URL = YOUR_PUBLIC_URL & NEXT_PUBLIC_APPWRITE_PROJECT_ID = YOUR_PROJECT_ID
+- add the `.env` file and add your app write credentials as `NEXT_PUBLIC_APPWRITE_URL = YOUR_PUBLIC_URL` & `NEXT_PUBLIC_APPWRITE_PROJECT_ID = YOUR_PROJECT_ID`
 - Start the development server with the command: `npm run dev`
 - Open your web browser and navigate to `http://localhost:3000` to view the app running locally.
+
+
+## Live App
+[Live](https://nextjs-appwrite-mocha.vercel.app/)
