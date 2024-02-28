@@ -24,7 +24,7 @@ const Login = () => {
                 router.push("/profile");
             }
         } catch (error: any) {
-            setError(error.message); 
+            setError(error.message);
         }
     };
 
@@ -35,7 +35,12 @@ const Login = () => {
             >
                 <div className="mb-2 flex justify-center">
                     <span className="inline-block w-full max-w-[60px]">
-                        <Image src="/favicon.ico" alt="Logo" />
+                        <Image
+                            src="/favicon.ico"
+                            alt="Favicon"
+                            width={32}
+                            height={32}
+                        />
                     </span>
                 </div>
                 <h2 className="text-center text-2xl font-bold leading-tight text-black">
